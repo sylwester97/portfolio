@@ -1,0 +1,69 @@
+.contact {
+  background-color: rgb(226, 226, 226);
+  // background: radial-gradient(#46454500, #cccccc);
+  // background: radial-gradient(#46454507, #ccccccd5);
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__heading {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-form {
+    background-image: radial-gradient(#46454586, #b9b9b970),
+      url("../images/mount.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .contact__btn {
+      text-align: right;
+      margin-left: calc(100% - 165px);
+    }
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 600px;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+    -webkit-box-shadow: 0px 0px 24px -3px rgba(191, 191, 192, 0.59);
+    -moz-box-shadow: 0px 0px 24px -3px rgba(191, 191, 192, 0.59);
+    box-shadow: 0px 0px 24px -3px rgba(191, 191, 192, 0.59);
+    &__form {
+      width: 80%;
+      .contact__form-field {
+        textarea {
+          resize: none;
+        }
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .contact__form-label {
+          padding: 1rem 0 0.5rem 0;
+          font-weight: 600;
+          color: $info-text;
+        }
+        .contact__form-input {
+          background-color: #e7e7e7d5;
+          font-weight: 600;
+          border: 1px solid rgba(214, 214, 214, 0.781);
+          padding: 0.5rem 1rem;
+          width: 100%;
+        }
+        .contact__form-input:focus {
+          border-bottom: 1.5px solid $orange;
+          outline: none;
+        }
+      }
+    }
+  }
+}

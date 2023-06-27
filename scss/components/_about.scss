@@ -1,0 +1,83 @@
+.about {
+  border-bottom: 2px dashed $info-text;
+  -webkit-box-shadow: 0px -19px 24px -4px rgba(66, 68, 90, 0.57);
+  -moz-box-shadow: 0px -19px 24px -4px rgba(66, 68, 90, 0.57);
+  box-shadow: 0px -19px 24px -4px rgba(66, 68, 90, 0.57);
+
+  max-width: 1200px;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+
+  .main-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-content {
+    padding: 5rem 0;
+    display: flex;
+    .main-about {
+      width: 90%;
+      display: flex;
+      // margin-top: 6rem;
+      text-align: left;
+      justify-content: start;
+      align-items: flex-start;
+      flex-direction: column;
+      &__title {
+        color: $heading;
+        padding: 0 0 1rem 0;
+        font-size: 2rem;
+      }
+      .elementp {
+        color: $info-text;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        margin: 1rem 0;
+      }
+    }
+    .main-skills {
+      width: 100%;
+      max-height: 600px;
+      min-height: 300px;
+      display: flex;
+      text-align: left;
+      flex-direction: column;
+      &__title {
+        display: block;
+        padding: 0 0 2rem 0;
+        color: $heading;
+        font-size: 2rem;
+      }
+      &__info {
+        max-height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        span {
+          transition: 1s ease-in-out;
+          cursor: pointer;
+          font-weight: 600;
+          border-radius: 8px;
+          margin: 0.7rem 0.7rem 0.7rem 0;
+          font-size: 1.2rem;
+          letter-spacing: 1px;
+          color: #fff;
+          display: block;
+          background-color: gray;
+          padding: 10px 30px;
+        }
+        span:hover {
+          color: $orange;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  // scroll-margin: 1200px;
+  z-index: 10;
+  // min-width: 370px;
+  display: flex;
+  // justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  // background-color: rgb(31, 31, 31);
+}
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+// $orange: #facf0f;
+// $heading: rgba(0, 0, 0, 0.651);
+// $info-text: rgb(56, 56, 56);
+@import "colors/colors";
+@import "components/projects";
+@import "components/header";
+@import "components/hero";
+@import "components/about";
+@import "components/footer";
+@import "components/contact";
+
+@import "util/variables";
+@import "util/media";
+
+.thank {
+  min-width: 480px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(230, 230, 230);
+  .thanks {
+    -webkit-box-shadow: 0px 0px 24px -3px rgba(191, 191, 192, 0.59);
+    -moz-box-shadow: 0px 0px 24px -3px rgba(191, 191, 192, 0.59);
+    box-shadow: 0px 0px 24px -3px rgba(175, 175, 175, 0.59);
+    border-radius: 8px;
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+    .title {
+      font-size: 2rem;
+      padding: 1rem;
+      width: 100%;
+      text-align: center;
+    }
+    .info {
+      width: 100%;
+      font-size: 1.2rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .back {
+      padding: 1rem 2rem;
+      color: #fff;
+      text-transform: uppercase;
+      background-color: rgba(17, 17, 214, 0.986);
+      font-weight: 600;
+      margin: 1rem;
+      border-radius: 8px;
+      border: none;
+      letter-spacing: 1px;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}
+

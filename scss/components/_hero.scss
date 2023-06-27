@@ -1,0 +1,64 @@
+.home-hero {
+  font-family: "Source Sans Pro", sans-serif;
+  background-image: url("../images/1month.jpg");
+  min-height: 100vh;
+
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .home-hero__content {
+    height: 70%;
+    max-width: 1200px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .heading-primary {
+      width: 90%;
+      color: #111111;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+    .home-hero__info {
+      margin-top: 3rem;
+      // font-size: 30px;
+      text-align: center;
+      .text-primary {
+        line-height: 2.5rem;
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fff;
+      }
+
+      .home-hero-button {
+        .projectsBtn {
+          cursor: pointer;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #fff;
+          display: inline-block;
+          box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+          font-size: 1rem;
+          font-weight: 600;
+          letter-spacing: 2px;
+          border-radius: 8px;
+          border: none;
+          transition: transform 0.3s;
+          padding: 1rem 3rem;
+          background-color: $orange;
+        }
+        .projectsBtn:hover {
+          transform: translateY(-5px);
+        }
+      }
+    }
+  }
+}

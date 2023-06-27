@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Sylwester Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/edbadc31eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <ul class="burgerMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="navbar__logo">
+        <img class="img" src="" alt="" />
+        <h2>Sylwester</h2>
+        <h2>Kozłowski</h2>
+      </div>
+
+      <ul class="navbar__menu">
+        <li class="active menuItem"><a href="#home">Home</a></li>
+        <li class="menuItem"><a href="#about">About</a></li>
+        <li class="menuItem"><a  href="#projects">Projects</a></li>
+        <li class="menuItem"><a  href="#contact">Contact</a></li>
+      </ul>
+      <div class="navbar__button">
+        <span class="span1"></span>
+        <span class="span2"></span>
+        <span class="span3"></span>
+      </div>
+    </header>
+
+    <section class="home-hero" id="home">
+      <div class="home-hero__content">
+        <!-- <h1 class="heading-primary">Hey, i'm Sylwester Kozłowski</h1> -->
+
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Hi, my name is <b>Sylwester</b>, I'm a FrontEnd developer. I am
+            self-taught. Below you will find my projects and skills
+          </p>
+          <div class="home-hero-button">
+            <a href="#projects" class="projectsBtn">Projects</a>
+          </div>
+        </div>
+      </div>
+      <div class="home-hero__arrow"></div>
+      <div class="hero-shadow"></div>
+    </section>
+    <section id="about" class="about">
+      <div class="main-heading">
+        <h2 class="main-heading__title primary-title">About me</h2>
+        <span class="bottom-line"></span>
+        <p class="main-heading__info heading-inf">
+          Here you will find more information about me, what I do, and my
+          current skills mostly in terms of programming and technology.
+        </p>
+      </div>
+      <div class="main-content change">
+        <div class="main-about">
+          <h2 class="main-about__title">Get to know me.</h2>
+          <div class="main-about__info">
+            <p class="elementp">
+              I'm a <b>Frontend Web Developer</b> building the Front-end of
+              Websites and Web Applications that leads to the success of the
+              overall product.
+            </p>
+            <p class="elementp"></p>
+         
+            <p class="elementp">
+              If you have a good opportunity that matches my skills and
+              experience then don't hesitate to contact me.
+            </p>
+          </div>
+          <button class="contact-button btn--theme primary-title">
+            <a href="#contact">Contact</a>
+          </button>
+        </div>
+        <div class="main-skills">
+          <h2 class="main-skills__title">My Skills</h2>
+          <div class="main-skills__info">
+            <span>React</span>
+            <span>NodeJS</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>SASS</span>
+            <span>GIT</span>
+            <span>ResponsiveDesign</span>
+            <span>SEO</span>
+            <span>C Basics</span>
+            <span>Java Basics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <div class="projects__heading">
+        <h2 class="primary-title">Projects</h2>
+        <span class="bottom-line"></span>
+        <p class="heading-inf">Here you can find some of my Projects.</p>
+      </div>
+      <div class="container">
+        <div class="project-item project-thre">
+          <div class="item-info">
+            <div class="item-heading">ChatGPT Clone</div>
+            <div class="item-text">
+              In this project, I am using React and Node.js to create a ChatGPT
+              clone.
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="images/projectgpt.png" alt="Picture of my project"
+            /></a>
+          </div>
+        </div>
+        <div class="project-item project-two">
+          <div class="item-info">
+            <div class="item-heading">Travel Blog</div>
+            <div class="item-text">
+              A travel blog website created in HTML, CSS and JS that contains
+              descriptions of places, photos, videos and tools for travel
+              planning using responsive design and interactivity.
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="images/travel-project.png" alt="Picture of my project"
+            /></a>
+          </div>
+        </div>
+        <div class="project-item project-one">
+          <div class="item-info">
+            <div class="item-heading">Lottery Game</div>
+            <div class="item-text">
+              Simple Lottery game project. Based on Sass, JS, Html.
+            </div>
+          </div>
+          <div class="project-image">
+            <a href="https://sylwester97.github.io/simple-js-draw-game/"
+              ><img src="images/game.png" alt="Picture of my project"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact__heading">
+        <h2 class="primary-title">Contact</h2>
+        <span class="bottom-line"></span>
+        <p class="heading-inf">
+          Feel free to Contact me by submitting the form below and I will get
+          back to you as soon as possible.
+        </p>
+      </div>
+      <div class="contact-form">
+        <form
+          action="https://formsubmit.co/sylwesterwebdev@gmail.com"
+          class="contact-form__form"
+          method="post"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value=" https://sylwesterwebdev.github.io/Portfolio/thanks.html"
+          />
+
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Name:</label>
+            <input
+              required="Add your name!"
+              placeholder="Enter Your Name"
+              type="name"
+              class="contact__form-input"
+              name="name"
+              id="name"
+            />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email:</label
+            ><input
+              required="Add Your Email"
+              placeholder="Enter Your Email"
+              type="email"
+              class="contact__form-input"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Message:</label>
+            <textarea
+              required=""
+              cols="30"
+              rows="10"
+              class="contact__form-input"
+              placeholder="Enter Your Message..."
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn--theme contact__btn">
+            Submit
+          </button>
+        </form>
+        <!-- <div class="hero-shadow"></div> -->
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="footer-left__title">Sylwester Kozłowski</div>
+          <div class="footer-left__info">
+            A Frontend focused Web Developer building the Frontend of Websites
+            and Web Applications that leads to the success of the overall
+            product
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="footer-right__title">Social</div>
+          <div class="footer-right__info">
+            <span class="social-btn">
+              <a href="https://www.facebook.com/Sylwesteeer/">
+                <img src="./images/icons/icons8-facebook-48.png" />
+              </a>
+            </span>
+            <span class="social-btn">
+              <a href="https://github.com/sylwester97">
+                <img src="./images/icons/icons8-github-48.png" />
+              </a>
+            </span>
+            <span class="social-btn">
+              <a href="https://www.instagram.com/__sylwester_/">
+                <img src="./images/icons/icons8-instagram-48.png" />
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-lower">
+        © Copyright
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Made by:
+        <a rel="noreferrer" target="_blank" href="#Home">Sylwester Kozłowski</a>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

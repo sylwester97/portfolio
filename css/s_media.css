@@ -1,0 +1,124 @@
+@media only screen and (max-width: 500px) {
+  .navbar {
+    max-width: 500px;
+  }
+  .heading-primary {
+    margin-top: 1rem;
+    font-size: 2.4rem;
+  }
+  .text-primary {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .home-hero-button {
+    padding-bottom: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .heading-primary {
+    font-size: 3rem;
+  }
+  .footer-left {
+    padding-top: 3rem;
+    padding-right: 2rem;
+    width: 70%;
+  }
+  .footer-left__info {
+    width: 70%;
+  }
+  .footer-content {
+    width: 90%;
+  }
+  .footer-right {
+    width: 30%;
+    padding-left: 2rem;
+  }
+  .navbar__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar__button {
+    display: none;
+  }
+  .burgerMenu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .main-heading {
+    margin-top: 4rem;
+  }
+  .main-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .main-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .main-about {
+    max-width: 50%;
+    margin: 1rem 2rem 1rem 0;
+  }
+  .main-skills {
+    max-width: 50%;
+    margin: 1rem 0 1rem 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-lower {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact__heading {
+    padding: 3rem 1rem;
+  }
+  .home-hero-button {
+    margin-bottom: 1rem;
+  }
+  .home-hero__content {
+    margin-top: 6rem;
+  }
+  .heading-primary {
+    font-size: 3rem;
+  }
+  .footer-content {
+    width: 100%;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footer-left,
+.footer-right {
+    width: 90%;
+  }
+  .footer-left__info,
+.footer-right__info {
+    width: 100%;
+  }
+  .footer-left {
+    padding-top: 1rem;
+  }
+  .navbar__menu {
+    display: none;
+  }
+  .main-skills__info span {
+    margin: 1.5rem;
+  }
+}/*# sourceMappingURL=s_media.css.map */
