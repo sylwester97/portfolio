@@ -55,15 +55,22 @@
         .contact__form-input {
           background-color: #e7e7e7d5;
           font-weight: 600;
+
           border: 1px solid rgba(214, 214, 214, 0.781);
+          border-bottom: 2.5px solid transparent;
           padding: 0.5rem 1rem;
           width: 100%;
         }
         .contact__form-input:focus {
-          border-bottom: 1.5px solid $orange;
+          background-color: #fffefed5;
+          border-bottom: 2.5px solid $orange;
           outline: none;
         }
       }
     }
   }
+}
+.client-name,
+.client-message {
+  text-transform: capitalize;
 }
